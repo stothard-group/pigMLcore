@@ -1,0 +1,26 @@
+Package: pigMLcore
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.4.0
+Author: Tianfu Yang
+Maintainer: Tianfu Yang <tianfu@ualberta.ca>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports:
+  mlbench,
+  caret,
+  doParallel,
+  parallel,
+  glmnet,
+  testthat,
+  ranger,
+  elasticnet,
+  e1071,
+  xgboost,
+  kernlab,
+  tensorflow,
+  keras
